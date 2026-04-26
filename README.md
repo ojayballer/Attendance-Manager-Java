@@ -1,22 +1,22 @@
-# 🎓 Student Attendance Manager (Java + Swing + MySQL)
+#  Student Attendance Manager (Java + Swing + MySQL)
 
 This is a **Java-based Student Attendance Management System** built with **Swing** for the GUI and **MySQL** as the database backend. It allows you to **add, update, delete, and view student attendance records** for multiple subjects.
 
 ---
 
-## 📋 Features
+##  Features
 
-- ✅ Add student attendance data (Name, Matric Number, Subject, Total Classes, Classes Attended)
-- ✏️ Edit existing records
-- ❌ Delete students by Matric Number
-- 📊 View records in a scrollable JTable
-- 📈 Calculates total attendance percentage automatically
-- 🔗 Connected to a MySQL database using JDBC
-- 💻 User-friendly interface using Java Swing
+- Add student attendance data (Name, Matric Number, Subject, Total Classes, Classes Attended)
+-  Edit existing records
+-  Delete students by Matric Number
+-  View records in a scrollable JTable
+- Calculates total attendance percentage automatically
+- Connected to a MySQL database using JDBC
+-  User-friendly interface using Java Swing
 
 ---
 
-## 🧱 Project Structure
+##  Project Structure
 
 ```
 Attendance-Manager-Java/
@@ -28,7 +28,7 @@ Attendance-Manager-Java/
 
 ---
 
-## 🗃️ MySQL Database Schema
+##  MySQL Database Schema
 
 Database: `intern`
 
@@ -47,7 +47,7 @@ CREATE TABLE attendance (
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### 1. Set up the Database
 
@@ -74,7 +74,7 @@ java attest
 
 ---
 
-## 📸 GUI Preview
+## GUI Preview
 
 > The application uses Java Swing and displays input fields on the left and the student table on the right. Clicking a student row populates the fields for editing.
 
